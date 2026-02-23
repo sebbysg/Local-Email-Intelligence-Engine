@@ -62,3 +62,4 @@ Accessibility: Soft skills and clear communication are prioritized over pure tec
 
 📄 License
 This project is open-source. Please ensure you respect corporate data policies when using AI to process work-related emails.
+
