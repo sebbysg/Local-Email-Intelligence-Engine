@@ -31,11 +31,11 @@ This system automates the tedious task of morning email triage. It pulls data fr
 
 ### 2. Installation
 
-git clone [https://github.com/your-username/Email-Intelligence.git](https://github.com/your-username/Email-Intelligence.git)
-cd Email-Intelligence
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+* git clone [https://github.com/your-username/Email-Intelligence.git](https://github.com/your-username/Email-Intelligence.git)
+* cd Email-Intelligence
+* python -m venv .venv
+* .venv\Scripts\activate
+* pip install -r requirements.txt
 
 ### 3. Environment Variables
 Create a .env file in the root directory:
@@ -62,4 +62,5 @@ Accessibility: Soft skills and clear communication are prioritized over pure tec
 
 📄 License
 This project is open-source. Please ensure you respect corporate data policies when using AI to process work-related emails.
+
 
