@@ -31,7 +31,7 @@ This system automates the tedious task of morning email triage. It pulls data fr
 
 ### 2. Installation
 
-* git clone [https://github.com/your-username/Email-Intelligence.git](https://github.com/your-username/Email-Intelligence.git)
+* git clone https://github.com/sebbysg/Local-Email-Intelligence-Engine.git Email-Intelligence
 * cd Email-Intelligence
 * python -m venv .venv
 * .venv\Scripts\activate
@@ -40,27 +40,26 @@ This system automates the tedious task of morning email triage. It pulls data fr
 ### 3. Environment Variables
 Create a .env file in the root directory:
 
-TELEGRAM_TOKEN=your_bot_token
-TELEGRAM_CHAT_ID=your_chat_id
-OUTPUT_DIR=C:\Your\Path\To\Reports
+* TELEGRAM_TOKEN=your_bot_token
+* TELEGRAM_CHAT_ID=your_chat_id
+* OUTPUT_DIR=C:\Your\Path\To\Reports
 
 ### 4. Running the Tool
 To run manually:
-python main.py
+* python main.py
 
 To audit an email:
-python audit_tool.py
+* python audit_tool.py
 
-🛡️ Values & Philosophy
+### 🛡️ Values & Philosophy
 This tool was built with the following guiding principles:
 
-AI Assists, Humans Lead: AI is used to summarize, but the human remains responsible for verification via the Audit Trail.
+* AI Assists, Humans Lead: AI is used to summarize, but the human remains responsible for verification via the Audit Trail.
+* People-First Tech: Automation should reduce burnout, not create more work.
+* Accessibility: Soft skills and clear communication are prioritized over pure technical complexity.
 
-People-First Tech: Automation should reduce burnout, not create more work.
+### 📄 License
+* This project is open-source. Please ensure you respect corporate data policies when using AI to process work-related emails.
 
-Accessibility: Soft skills and clear communication are prioritized over pure technical complexity.
-
-📄 License
-This project is open-source. Please ensure you respect corporate data policies when using AI to process work-related emails.
 
 
